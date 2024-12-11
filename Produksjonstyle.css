@@ -1,0 +1,131 @@
+@font-face {
+font-family: 'KoratakiBold';
+src:url(korataki_bold.otf)
+}
+
+body {
+background: url('bgnettside.jpg') no-repeat;
+background-size: cover
+background-position: center
+}
+
+.header-main {
+width: 100%;
+height: 60px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+}
+
+a {
+cursor: pointer;
+}
+
+.header-main-logo {
+width: fit-content;
+height: 100%;
+background-color: white;
+padding-left: 60px;
+display: flex;
+}
+
+.header-main-logo img {
+height: 140px;
+align-self: center;
+}
+
+.header-main-nav {
+width: fit-content;
+height: 100%;
+background-color: white;
+}
+
+.header-main-nav ul {
+list-style: none;
+}
+
+.header-main-nav ul li {
+display: inline;
+float: left;
+margin-left: 30px;
+position: relative;
+
+}
+ .header-main-nav ul li a{
+display: block;
+padding: 0 10px 0 10px;
+font-family: 'KoratakiBold';
+text-decoration: none;
+line-height: 30px;
+color: black;
+}
+
+.header-main-pougelandia {
+width: fit-content;
+height: 100%;
+background-color: white;
+padding-right: 60px;
+display: flex;
+}
+
+.header-main-pougelandia img {
+height: 140px;
+align-self: center;
+}
+
+#logo {
+width: 1497px;
+Height: 1000px;
+}
+
+.produksjon {
+font-family: 'KoratakiBold';
+font-size: 50px;
+}
+
+.Production {
+font-family: 'KoratakiBold';
+font-size: 30px;
+}
+
+.container {
+display: flex;
+margin-bottom: 50px;
+}
+
+#Josh {
+height: 1500px;
+width: 500px;
+}
+
+#Jonas {
+height: 1500px;
+width: 500px;
+}
+
+#Shannon {
+height: 1500px;
+width: 500px;
+}
+
+
+
+.bts {
+    display: flex;                 
+    flex-direction: column;      
+    align-items: center;       
+    justify-content: center;       
+    padding: 20px 0;
+    gap: 30px;                    
+}
+
+iframe {
+    width: 80%;                   
+    max-width: 800px;             
+    aspect-ratio: 16 / 9;          
+    border-radius: 10px;           
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+
